@@ -61,7 +61,7 @@ namespace BatteryPercentage
             g.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SingleBitPerPixelGridFit;
             
             // Select brush
-            if (false && Battery.IsOnline)
+            if (Battery.IsOnline)
             {
                 brush = Brushes.LightGreen;
             }
